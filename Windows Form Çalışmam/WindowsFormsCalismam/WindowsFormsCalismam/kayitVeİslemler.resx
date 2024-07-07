@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtxtBirinciBolum.Text" xml:space="preserve">
+    <value>			YAZILAN KODLAR
+
+        private void btnYazdır_Click(object sender, EventArgs e)
+        {
+            DialogResult diyalog = MessageBox.Show("Yeniden Değer Girmek İster Misiniz", "Kişi Bilgileri", MessageBoxButtons.YesNo, MessageBoxIcon.Warning); // DialogResult KULLANARAK NESNE TÜRETİYORUM
+
+            richTextBox1.Clear();   // TextBox TEMİZLİYORUM
+            string cinsiyetSecimi = ""; // CİNSİYETİ BELİRLEMEK İÇİN DEĞİŞKEN ATIYORUM
+
+            if (rdbErkek.Checked == true)   // DEĞİŞKENİME SEÇİLİ CİNSİYETİ YAZDIRIYORUM
+            {
+                cinsiyetSecimi = "Erkek";
+            }
+            else if (rdbKadin.Checked == true)
+            {
+                cinsiyetSecimi = "Kadın";
+            }
+            richTextBox1.Text = txtAdi.Text + "\n" + txtSoyadi.Text + "\n" + cinsiyetSecimi + "\n" + mskDogumTarihi.Text + "\n" + mskTelefon.Text + "\n" + lstOgrenimDurumu.Text ;  // YAZILAN DEĞERLERİ RichTextBox a YAZDIRIYORUM
+
+            if (diyalog == DialogResult.Yes)    // SONRASINDA MessageBox la SEÇİM YAPTIRIYORUM
+            {
+                temizlemeVeBlokeleme();     // METODU ÇAĞIRIYORUM
+            }
+            else if (diyalog == DialogResult.No)
+            {
+                MessageBox.Show("Pogram Kapatılacaktır", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);    // PROGRAMIN KAPATILACAĞINI SÖYLÜYORUM
+                this.Close();   // ÇALIŞMAYI KAPATIYORUM
+            }
+        }
+
+        private void temizlemeVeBlokeleme() // TEMİZLEME VE BLOKLAMA İÇİN METOT OLUŞTURUYORUM
+        {
+            txtAdi.Clear();
+            txtSoyadi.Clear();
+            mskTelefon.Clear();
+            mskDogumTarihi.Clear();
+            rdbErkek.Checked = false;
+            rdbKadin.Checked = false;
+            lstOgrenimDurumu.SelectedIndex = -1;    // ListBox SEÇİMİ SIFIRLIYORUM
+
+            txtSoyadi.Enabled = false;
+            mskTelefon.Enabled = false;
+            mskDogumTarihi.Enabled = false;
+            rdbErkek.Enabled = false;
+            rdbKadin.Enabled = false;
+            lstOgrenimDurumu.Enabled = false;
+            btnYazdır.Enabled = false;
+            btnTemizle.Enabled = false;
+
+        }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            temizlemeVeBlokeleme();	// METODU ÇAĞIRIYORUM
+        }
+
+        private void kayitVeİslemler_Load(object sender, EventArgs e)
+        {
+            temizlemeVeBlokeleme();	// METODU ÇAĞIRIYORUM
+        }
+
+        private void txtAdi_TextChanged(object sender, EventArgs e)
+        {
+            txtSoyadi.Enabled = true;
+        }
+
+        private void txtSoyadi_TextChanged(object sender, EventArgs e)
+        {
+            rdbErkek.Enabled = true;
+            rdbKadin.Enabled = true;
+        }
+
+        private void rdbKadin_CheckedChanged(object sender, EventArgs e)
+        {
+            mskTelefon.Enabled = true;
+        }
+
+        private void rdbErkek_CheckedChanged(object sender, EventArgs e)
+        {
+            mskTelefon.Enabled = true;
+        }
+
+        private void mskTelefon_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            mskDogumTarihi.Enabled = true;
+        }
+
+        private void mskDogumTarihi_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            lstOgrenimDurumu.Enabled = true;
+        }
+
+        private void lstOgrenimDurumu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnYazdır.Enabled = true;
+            btnTemizle.Enabled = true;
+        }</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>			YAZILAN KODLAR
+        private void btnHesapla_Click(object sender, EventArgs e)
+        {
+            lblAsalSayisi.Text = " ";
+            btnIslemYap.Enabled = true;
+            richTextBox2.Clear();   // RichTextBox TEMİZLİYORUM
+
+            int sayi1 = Convert.ToInt32(txtIlkSayi.Text);   // YAZILAN DEĞERİ DEĞİŞKENE ATIYORUM
+            int sayi2 = Convert.ToInt32(txtIkinciSayi.Text);    // YAZILAN DEĞERİ DEĞİŞKENE ATIYORUM
+            int sonuc2 = 0; // SONUCU YAZDIRMAK İÇİN DEĞİŞKEN OLUŞTURUYORUM
+            int asallar = 0;
+            int asalSayisi = 0;
+
+            if (lstIslemTuru.SelectedIndex == 2)    // İŞLEM TÜRÜNDE SEÇİLEN BÖLME İŞLEMİNİ YAPTIRIYORUM
+            {
+                sonuc2 = sayi1 / sayi2;     // YAPILAN İŞLEMİ DEĞİŞKENE ATIYORUM
+            }
+            if (lstIslemTuru.SelectedIndex == 0)    // İŞLEM TÜRÜNDE SEÇİLEN TOPLAMA İŞLEMİNİ YAPTIRIYORUM
+            {
+                sonuc2 = sayi1 + sayi2;     // YAPILAN İŞLEMİ DEĞİŞKENE ATIYORUM
+            }
+            if (lstIslemTuru.SelectedIndex == 1)    // İŞLEM TÜRÜNDE SEÇİLEN ÇIKARMA İŞLEMİNİ YAPTIRIYORUM
+            {
+                sonuc2 = sayi1 - sayi2;     // YAPILAN İŞLEMİ DEĞİŞKENE ATIYORUM
+            }
+            if (lstIslemTuru.SelectedIndex == 3)    // İŞLEM TÜRÜNDE SEÇİLEN ÇARPMA İŞLEMİNİ YAPTIRIYORUM
+            {
+                sonuc2 = sayi1 * sayi2;     // YAPILAN İŞLEMİ DEĞİŞKENE ATIYORUM
+            }
+            if (lstIslemTuru.SelectedIndex == 4)    // İŞLEM TÜRÜNDE SEÇİLEN **ASAL TOPLAMA** İŞLEMİNİ YAPTIRIYORUM
+            {
+                if (sayi1 &lt;= 0) // EN KÜÇÜK ASAL SAYI 2 DEN BAŞLADIĞI İÇİN GİRİLEN DEĞER SIFIR İSE ONU 2 YE ÇEVİRİYORUM
+                {
+                    sayi1 = 2;
+                }
+                for (int i = sayi1; i &lt;= sayi2; i++)    // GİRİLEN DEĞERDEN BAŞLAYIP GİRİLEN DEĞERE KADAR SAYDIRIYORUM
+                {
+                    bool kontrol = false;   // Boolean DEĞİŞKENİ OLUŞTURUYORUM
+
+                    for (int j = 2; j &lt; i; j++)     // ASAL SAYILAR 2 DEN BAŞLADIĞI İÇİN 2 DEN BAŞLATIP GİRİLEN DEĞERE KADAR SAYDIRIYORUM
+                    {
+                        if ((i % j) == 0)   // BÖLÜMÜNDEN KALAN 0 İSE
+                        {
+                            kontrol = true; // Boolean DEĞİŞKENİNİ DOĞRU DEĞERİNİ VERİYORUM
+                            break;  // DÖNGÜDEN ÇIKIYORUM
+                        }
+                    }
+                    if (kontrol == true) { }
+                    else
+                    {
+                        sonuc2 += i;    // ASALLARI TOPLATIYORUM
+                        asallar = i;    // ASALLARI YAZDIRMAK İÇİN DEĞERİ ATIYORUM HER SEFERNDE YENİ DEĞER İLE DEĞİŞİYOR
+                        asalSayisi++;   // ASAL SAYI ADETİNİ TUTMAK VE SIRA NUMARASI İÇİN ARTTIRIYORUM
+                        richTextBox2.Text = richTextBox2.Text + asalSayisi + ". " + asallar + "\n";     // RichTextBox ASALLARI SIRA NUMARASIYLA YAZDIRIYORUM
+                    }
+                }
+                if (sonuc2 &lt;= 0)    // ASAL SAYI OLUP OLMADIĞINI KONTROL EDİYORUM ONA GÖRE METİN YAZDIRIYORUM
+                {
+                    lblAsalSayisi.Text = "Asal sayı yoktur";
+                }
+                else
+                {
+                    lblAsalSayisi.Text = Convert.ToString(asalSayisi) + " " + "adet asal sayı vardır.";
+                }
+            }
+            txtSonuc.Text = sonuc2.ToString();  // SONUÇ DEĞERİNİ YAZDIRIYORUM
+        }
+
+        private void btnTemizle2_Click(object sender, EventArgs e)
+        {
+            richTextBox2.Clear();   // RichTextBox TEMİZLİYORUM
+            lblAsalSayisi.Text = " ";
+            txtIlkSayi.Clear();
+            txtIkinciSayi.Clear();
+            lstIslemTuru.SelectedIndex = -1;
+            txtSonuc.Clear();
+            btnHesapla.Enabled = false;
+            txtIkinciSayi.Enabled = false;
+            lstIslemTuru.Enabled = false;
+            btnTemizle2.Enabled = false;
+            txtSonuc.Enabled = false;
+            btnIslemYap.Enabled = false;
+
+        }
+
+        private void btnIslemYap_Click(object sender, EventArgs e)
+        {
+            lblAsalSayisi.Text = " ";
+            richTextBox2.Clear();   // RichTextBox TEMİZLİYORUM
+            txtIlkSayi.Text = txtSonuc.Text;
+            txtIkinciSayi.Clear();
+            lstIslemTuru.SelectedIndex = -1;
+            btnHesapla.Enabled = false;
+            txtSonuc.Clear();
+        }
+
+        private void txtIlkSayi_TextChanged(object sender, EventArgs e)
+        {
+            txtIkinciSayi.Enabled = true;
+            btnTemizle2.Enabled = true;
+        }
+
+        private void txtIkinciSayi_TextChanged(object sender, EventArgs e)
+        {
+            lstIslemTuru.Enabled = true;
+        }
+
+        private void lstIslemTuru_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnHesapla.Enabled = true;
+            btnTemizle2.Enabled = true;
+        }</value>
+  </data>
+</root>

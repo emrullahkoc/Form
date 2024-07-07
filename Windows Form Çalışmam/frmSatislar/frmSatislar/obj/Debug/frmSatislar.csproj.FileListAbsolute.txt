@@ -1,0 +1,11 @@
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\bin\Debug\frmSatislar.exe.config
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\bin\Debug\frmSatislar.exe
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\bin\Debug\frmSatislar.pdb
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.csproj.AssemblyReference.cache
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.frmSatislar.resources
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.Properties.Resources.resources
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.csproj.GenerateResource.cache
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.csproj.CoreCompileInputs.cache
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.exe
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.pdb
+C:\Users\emrul\Desktop\Windows Form Çalışmam\frmSatislar\frmSatislar\obj\Debug\frmSatislar.frmCrud.resources
